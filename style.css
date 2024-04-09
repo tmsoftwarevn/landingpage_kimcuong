@@ -23,3 +23,14 @@
         color: white;
     }
 }
+/* 
+form dang ky */
+.bg-form{
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 500px;
+    background-image: url("./img/about-img.jpg");
+    transform: skewY(6deg);
+    z-index: 0;
+}
