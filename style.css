@@ -6,8 +6,10 @@
     color: red;
 }
 
-.left-lantoa{
-    /* background-image: url("./img/c1.jpg"); */
+@media (min-width: 768px) {
+    .right-lantoa{
+        padding: 40px;
+    }
 }
 
 .right-lantoa {
