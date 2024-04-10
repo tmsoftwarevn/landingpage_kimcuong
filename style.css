@@ -11,10 +11,12 @@
 }
 
 .right-lantoa {
-    background-image: url("./img/c3.jpg");
-    min-height: 250px;
-    background-size: contain;
+   width: 100%;
 }
+.right-lantoa img{
+    width: 100%;
+}
+
 .btn-form{
     background-color: white;
     font-weight: 600;
@@ -33,4 +35,23 @@ form dang ky */
     background-image: url("./img/about-img.jpg");
     transform: skewY(6deg);
     z-index: 0;
+}
+
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+
+.banner-area{
+    background-image: url("./img/bg-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.nav-menu a:hover{
+    color: rgb(250, 74, 103);
+    text-decoration: underline;
 }

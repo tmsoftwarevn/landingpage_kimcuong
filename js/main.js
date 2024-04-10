@@ -166,10 +166,12 @@ $(document).ready(function() {
         margin: 30,
         dots: true,
         nav: true,
+        autoplay: true,
         navText: [
             // "<span class='lnr lnr-arrow-up'></span>",
-            `<i class="fa-solid fa-angle-left mr-20"></i>`,
-            `<i class="fa-solid fa-angle-right"></i>`,
+
+            // `<i class="fa-solid fa-angle-left mr-20"></i>`,
+            // `<i class="fa-solid fa-angle-right"></i>`,
         ],
         
         responsive: {
