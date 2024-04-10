@@ -1941,7 +1941,9 @@ h6 {
 #header.header-scrolled {
     box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
     /* background: rgba(34, 34, 34, 0.9); */
-    background-color: #f9a8d4;
+    /* background-color: #f9a8d4; */
+    background-image: url("../img/bg-header.jpg");
+    background-position: center;
     transition: all 0.5s;
 }
 
@@ -2234,7 +2236,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-    padding: 120px 0;
+    padding: 70px 0;
 }
 
 .section-title {
@@ -2354,14 +2356,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 1200px) {
-    .banner-area{
+    /* .banner-area{
         height: 650px !important;
-    }
+    } */
 }
 @media (max-width: 1199.98px) {
-    .banner-area .fullscreen {
+    /* .banner-area .fullscreen {
         height: 800px !important;
-    }
+    } */
 }
 
 .banner-content {
@@ -2417,7 +2419,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 800px) {
     .banner-content {
-        margin-top: 80px;
+        /* margin-top: 80px; */
     }
 }
 
@@ -2584,7 +2586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-price .price-bottom {
     background-color: #f9f9ff;
-    margin: 0 45px 45px 45px;
+    /* margin: 0 45px 45px 45px; */
     padding: 35px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
