@@ -84,8 +84,9 @@
 
                     </video> -->
                     <div class="video-wrapper">
-                        <iframe src="https://www.youtube.com/embed/2xfj1njfcW8" frameborder="0" allowfullscreen></iframe>
-                      </div>
+                        <iframe src="https://www.youtube.com/embed/2xfj1njfcW8" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
                 <!-- //banner-right -->
                 <div class="col-lg-5 flex justify-center">
@@ -325,82 +326,87 @@
 
             <div class="row">
                 <div class="form-left col-md-6">
+
                     <div class="w-full max-w-lg">
-                        <div class="flex flex-wrap -mx-3 mb-6">
-                            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                                    for="ho">
-                                    Họ
-                                </label>
+                        <form method="POST" id="form">
+                            <div class="flex flex-wrap -mx-3">
 
-                                <input
-                                    class="appearance-none block w-full bg-white text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                                    id="ho" type="text">
-                                <p id="message-err-1" style="display: none;" class="text-red-500 text-xs italic">Không
-                                    được để trống</p>
+                                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                        for="email">
+                                        Email
+                                    </label>
+                                    <input
+                                        class="appearance-none block w-full bg-white text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                                        id="email" type="text" name="Email">
+                                    <p id="message-err-3" style="display: none;" class="text-red-500 text-xs italic">
+                                        Không
+                                        đúng định dạng</p>
+                                </div>
+                                <div class="w-full md:w-1/2 px-3">
+                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                        for="phone">
+                                        Số điện thoại
+                                    </label>
+                                    <input
+                                        class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                        id="phone" type="text" name="Số điện thoại">
+                                    <p id="message-err-4" style="display: none;" class="text-red-500 text-xs italic">
+                                        Không
+                                        đúng định dạng</p>
+                                </div>
+                                <div class="w-full px-3 mb-6 md:mb-0">
+                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                        for="ho">
+                                        Họ và tên
+                                    </label>
 
-                            </div>
-                            <div class="w-full md:w-1/2 px-3">
-                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                                    for="ten">
-                                    Tên
-                                </label>
-                                <input
-                                    class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                                    id="ten" type="text">
-                                <p id="message-err-2" style="display: none;" class="text-red-500 text-xs italic">Không
-                                    được để trống</p>
-                            </div>
-
-                            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                                    for="email">
-                                    Email
-                                </label>
-                                <input
-                                    class="appearance-none block w-full bg-white text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                                    id="email" type="text">
-                                <p id="message-err-3" style="display: none;" class="text-red-500 text-xs italic">Không
-                                    đúng định dạng</p>
-                            </div>
-                            <div class="w-full md:w-1/2 px-3">
-                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                                    for="phone">
-                                    Số điện thoại
-                                </label>
-                                <input
-                                    class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                                    id="phone" type="text">
-                                <p id="message-err-4" style="display: none;" class="text-red-500 text-xs italic">Không
-                                    đúng định dạng</p>
-                            </div>
-                        </div>
-
-                        <div class="flex flex-wrap -mx-3 mb-6">
-                            <div class="w-full px-3">
-                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                                    for="diachinhanhang">
-                                    Địa chỉ nhận hàng
-                                </label>
-                                <input
-                                    class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                                    id="diachinhanhang" type="text">
-                                <p id="message-err-5" style="display: none;" class="text-red-500 text-xs italic">Không
-                                    được để trống</p>
+                                    <input
+                                        class="appearance-none block w-full bg-white text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                                        id="name" type="text" name="Họ và tên">
+                                    <p id="message-err-1" style="display: none;" class="text-red-500 text-xs italic">
+                                        Không
+                                        được để trống</p>
+                                </div>
                             </div>
 
-                            <div class="w-full px-3">
-                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                                    for="loinhan">
-                                    Để lại lời nhắn cho chúng tôi
-                                </label>
-                                <textarea
-                                    class="resize rounded-md w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
+                            <div class="flex flex-wrap -mx-3 mb-6">
+                                <div class="w-full px-3">
+                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                        for="diachinhanhang">
+                                        Địa chỉ nhận hàng
+                                    </label>
+                                    <input
+                                        class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                        id="diachinhanhang" type="text" name="Địa chỉ nhận hàng">
+                                    <p id="message-err-5" style="display: none;" class="text-red-500 text-xs italic">
+                                        Không
+                                        được để trống</p>
+                                </div>
+
+                                <div class="w-full px-3">
+                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                        for="loinhan">
+                                        Để lại lời nhắn cho chúng tôi
+                                    </label>
+                                    <textarea name="Lời nhắn" id="loinhan"
+                                        class="resize rounded-md w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
+                                </div>
                             </div>
-                        </div>
-                        <button id="id-btn-form" class="btn-form ml-1 rounded px-4 py-3 uppercase hover:bg-pink-500">
-                            Xác nhận</button>
+                            <input type="hidden" name="access_key" value="c586d47f-c7a3-4282-853c-751eee6126d7">
+                            <input type="hidden" name="subject"
+                                value="Thông tin người mua từ website Trái tim kim cương">
+
+                            <button id="id-btn-form" class="btn-form ml-1 rounded px-4 py-3 uppercase hover:bg-pink-500"
+                                type="submit">
+                                Xác nhận
+                            </button>
+                            <div id="result"></div>
+                        </form>
+
+
                     </div>
+
                 </div>
 
                 <div class="rightt col-md-6 mt-4">
@@ -600,9 +606,130 @@
             once: false,
         });
     </script>
+    <!-- gui mail -->
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 
     <!-- handle  -->
+
+    <!-- gui mail -->
     <script>
+        let form = document.getElementById('form');
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            var input1Value = document.getElementById("name")?.value;
+
+            var input3Value = document.getElementById("email")?.value;
+            var input4Value = document.getElementById("phone")?.value;
+            var input5Value = document.getElementById("diachinhanhang")?.value;
+            var input6Value = document.getElementById("loinhan")?.value;
+
+            var formData_send = {
+                name: input1Value,
+                email: input3Value,
+                phone: input4Value,
+                diachinhanhang: input5Value,
+                loinhan: input6Value
+            };
+
+            var formapi = {
+                key: "214160944186",
+                name: input1Value,
+                phone: input4Value,
+                email: input3Value,
+                address: input5Value,
+                message: input6Value
+            }
+            var check = /(03|05|07|08|09)+([0-9]{8})\b/.test(input4Value);
+
+            if (!check) {
+                document.getElementById("message-err-4").style.display = "block"
+                return;
+            } else {
+                document.getElementById("message-err-4").style.display = "none"
+            }
+
+            if (!formData_send.email.match(/[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/)) {
+                document.getElementById("message-err-3").style.display = "block"
+                return;
+            } else {
+                document.getElementById("message-err-3").style.display = "none"
+            }
+
+            if (!formData_send.name) {
+                document.getElementById("message-err-1").style.display = "block"
+                return;
+            } else {
+                document.getElementById("message-err-1").style.display = "none"
+            }
+
+            if (!formData_send.diachinhanhang) {
+                document.getElementById("message-err-5").style.display = "block"
+                return;
+            } else {
+                document.getElementById("message-err-5").style.display = "none"
+            }
+
+            // guimail
+            const formData = new FormData(form);
+            const object = Object.fromEntries(formData);
+            const json = JSON.stringify(object);
+
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+                .then(async (response) => {
+                    let json = await response.json();
+                    if (response.status == 200) {
+                        console.log(response);
+                        // Swal.fire("Xác nhận thành công !");
+                    } else {
+                        console.log(response);
+
+                    }
+                })
+                .catch(error => {
+                    console.log(error);
+
+                })
+                .then(function () {
+                    form.reset();
+
+                });
+
+
+            console.log('aaa', formapi)
+            fetch('https://tmbranding.vn/Woay/API/KimCuong/add.php', {
+                method: 'POST',
+                body: JSON.stringify(formapi),
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            })
+                .then(response => response.json())
+                .then(result => {
+                    console.log('Responseeeeeee:', result);
+                    if (result.message == "success") { Swal.fire("Xác nhận thành công !"); }
+                    else{
+                        Swal.fire("Thất bại. Hãy thử lại sau !")
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+
+        })
+
+    </script>
+
+
+    <!-- <script>
+      
         document.getElementById("id-btn-form").addEventListener("click", function () {
 
             var input1Value = document.getElementById("ho")?.value;
@@ -656,8 +783,11 @@
             } else {
                 document.getElementById("message-err-5").style.display = "none"
             }
+            // gui mail
 
-            Swal.fire("Xác nhận thành công !");
+
+
+            // Swal.fire("Xác nhận thành công !");
             console.log('fffff', formData)
 
             // fetch('https://tmbranding.vn/Woay/jytu/KhoaHoc3N/add.php', {
@@ -677,7 +807,7 @@
 
         });
 
-    </script>
+    </script> -->
 
     <script>
         function scrollToTop() {
