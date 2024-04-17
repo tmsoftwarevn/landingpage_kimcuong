@@ -191,6 +191,34 @@ $(document).ready(function() {
         }
     });
 
+    $('.active-tuthien-carusel').owlCarousel({
+        
+        items: 3,
+        loop: true,
+        margin: 10,
+        dots: true,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        navText: [],
+        
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+            },
+            900: {
+                items: 3,
+            }
+
+        }
+    });
+
     $('.active-tstimonial-carusel').owlCarousel({
         items: 3,
         margin: 30,
