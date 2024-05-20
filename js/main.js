@@ -198,7 +198,7 @@ $(document).ready(function() {
         margin: 10,
         dots: true,
         nav: true,
-        // autoplay: true,
+        autoplay: true,
         autoplayTimeout: 4000,
         navText: [],
         
